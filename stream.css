@@ -1,0 +1,29 @@
+}
+.built2bless-multitab-video button{
+background:#0f1012;color:#e7e8e9;border:none;padding: 8px 15px 8px 15px;font-size: 14px;font-weight: bold;border-radius: 5px 5px 0px 0px;text-transform:capitalize;cursor:pointer;-webkit-transition:all 300ms ease-in;-moz-transition:all 300ms ease-in;transition:all 300ms ease-in;
+} 
+.built2bless-multitab-video button.active{
+color: #e7e8e9;background:#8a6d97;
+} 
+.built2bless-multitab-video-content>div{
+padding: 10px 10px 5px 10px;background:#0f1012;font-size: 14px;font-weight: bold;color:#fff;
+} 
+.built2bless-multitab-video-content iframe{
+width:100%!important;height:400px;
+} 
+@media screen and (max-width:960px)
+{
+.built2bless-multitab-video-content iframe{max-height:90%}
+} 
+@media screen and (max-width:768px)
+{
+.built2bless-multitab-video-content iframe{max-height:75%}
+} 
+@media screen and (max-width:600px)
+{
+.built2bless-multitab-video-content iframe{max-height:60%}
+}
+ @media screen and (max-width:480px)
+{
+.built2bless-multitab-video-content iframe{height:auto!important;max-height:auto!important}
+}

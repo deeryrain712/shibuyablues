@@ -1,0 +1,7 @@
+#lyrics {clear:both;margin:10px auto}
+#lyrics ul#tabs{margin:auto;list-style:none;padding:0;clear:both;}
+#lyrics ul#tabs li{display:inline-block;background:#0f1012;border-radius:4px;}
+#lyrics ul#tabs li a{padding:3px 7px;display:block;color:#FFF;border-radius:4px;}
+#lyrics ul#tabs li a:hover{text-decoration:none;background:#8a6d97;border-radius:4px;}
+#lyrics ul#tabs li#current{text-decoration:none;background:#8a6d97;border-radius:4px}
+#lyrics #content{padding:5px;background:#1f2024;clear:both;}

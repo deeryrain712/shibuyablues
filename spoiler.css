@@ -1,0 +1,30 @@
+<style>
+.image{
+    display:block; margin:10px 0px; border:1px solid #8a6d97; padding:7px 10px; border-radius:3px; -moz-border-radius:3px;
+}
+.image .tombol {
+    background:#8a6d97;
+    color:#fff;
+    display:inline-block; cursor:pointer; font:normal 650 14px Quicksand,sans-serif; padding:0px; border:none; outline:none; line-height:20px; border-radius:3px; -moz-border-radius:3px;
+}
+.image .tombol:focus {
+    pointer-events:none;
+}
+.image .tombol:before {
+    content:'Open';
+    display:inline-block; padding:7px 10px; border-radius:3px; -moz-border-radius:3px;
+}
+.image .tombol:focus::before {
+    content:'Close';
+    background:#8a6d97;
+    color:#fff
+}
+.image .isi {
+    background:transparent; border:1px solid #8a6d97;
+    pointer-events:auto; visibility:hidden; opacity:0; height:0px; transition:all .5s ease;
+}
+.image .tombol:focus + .isi {
+    border:1px solid #8a6d97;
+    visibility:visible; opacity:1; height:auto; margin:10px 0px 5px; padding:10px 15px; transition:all .5s ease;
+}
+</style>
